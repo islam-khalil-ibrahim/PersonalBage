@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .84rem;
+    color: #000;
+    line-height: 1.71;
+    font-family: Santral W01;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.contener {
+
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 750px 50px;
+    grid-template-areas:
+        "sd main main main main"
+        "ft ft ft ft ft";
+
+}
+
+
+
+.SidPar {
+    grid-area: sd;
+    background-color: #eaf4f4;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    border: 1px solid white;
+
+}
+
+.Jewelry {
+    height: 20vh;
+    border: 1px solid white;
+    color: #080808;
+    background-color: #a4c3b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SidParBottom {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.main {
+    grid-area: main;
+    background-color: #eaf4f4;
+}
+.nestedgrid {
+display: grid;
+    grid-template-columns: 200px 400px ;
+gap: 50px;
+    grid-template-rows: 250px 400px ;   
+    grid-template-areas:
+        "inf inf pic pic pic pic pic "
+        "ft ft ft ft ft ft ft";
+
+
+}
+.info{
+    grid-area: inf;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.picI{
+    grid-area: pic;
+}
+.post{
+    grid-area: ft;
+}
+.into {
+    height: 15vh;
+    color: #080808;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#butt ,.price{
+    border: 1px solid #ffffff;
+    background-color:#a4c3b2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+}
+#butt:hover {
+    cursor: pointer;
+    transform: translateY(-10px) scale(1.02);
+}
+
+.footer {
+    grid-area: ft;
+    background-color: #a4c3b2;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(18, 13, 49);
+    font-weight: bold;
+}

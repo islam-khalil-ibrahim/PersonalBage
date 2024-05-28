@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .985rem;
+    color: #000;
+    line-height: 1.71;
+    font-family: Santral W01;
+    font-style: normal;
+}
+
+.navPar {
+    height: 20vh;
+    /* border: 1px solid; */
+    color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/images/LETTERS.jpeg);
+}
+
+.logForm {
+    display: grid;
+    /* gap: 10px; */
+    grid-template-rows: 360px 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-image: url(../assets/images/LETTERS.jpeg);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 500%;
+}
+
+#one,
+#tow {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
