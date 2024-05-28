@@ -114,3 +114,11 @@ a {
     color: rgb(18, 13, 49);
     font-weight: bold;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: ft;
+    background-color: #a4c3b2;
+}
